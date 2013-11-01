@@ -1,0 +1,15 @@
+# In Memory Tracing
+
+## Requriements
+
+- C code that will trace in memory when called
+- Flexible: will allow: caller-defined values to be passed: page boundary, max entries, wrap limit, number of entries per call, ???
+- It must be aligned on a page boundary of the given system
+- page faulting should be avoided if used by kernel code
+- Concept based on the MVT/MVS internal trace at page 0 +x’54’
+- Will need utility code to dump out the trace entries when needed
+- More to come as I think of it ...
+
+## Usage
+
+## Functions
