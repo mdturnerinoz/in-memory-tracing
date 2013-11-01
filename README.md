@@ -8,8 +8,13 @@
 - page faulting should be avoided if used by kernel code
 - Concept based on the MVT/MVS internal trace at page 0 +x’54’
 - Will need utility code to dump out the trace entries when needed
+- Tracing must be able to be turned on and off via a function call
 - More to come as I think of it ...
 
 ## Usage
 
 ## Functions
+
+## Testing
+
+- There will need to be code to test the callable functions provided with this project.
